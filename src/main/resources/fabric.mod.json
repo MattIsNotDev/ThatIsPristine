@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "thatispristine",
+	"version": "${version}",
+	"name": "ThatIsPristine",
+	"description": "Pristine Notification Mod for Hypixel Skyblock",
+	"authors": [
+		"MattIsNotDev"
+	],
+	"contact": {
+		"homepage": "https://github.com/MattIsNotDev/ThatIsPristine",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/thatispristine/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.mattisnotdev.thatispristine.ThatIsPristine"
+		],
+		"client": [
+			"io.github.mattisnotdev.thatispristine.ThatIsPristineClient"
+		]
+	},
+	"mixins": [
+		"thatispristine.mixins.json",
+		{
+			"config": "thatispristine.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
