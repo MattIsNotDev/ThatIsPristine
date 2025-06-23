@@ -3,13 +3,13 @@
 	"id": "thatispristine",
 	"version": "${version}",
 	"name": "ThatIsPristine",
-	"description": "Pristine Notification Mod for Hypixel Skyblock",
+	"description": "A little pristine notification mod for Hypixel Skyblock",
 	"authors": [
-		"MattIsNotDev"
+		"MattIsNotDead / MattIsNotDev"
 	],
 	"contact": {
-		"homepage": "https://github.com/MattIsNotDev/ThatIsPristine",
-		"sources": ""
+		"homepage": "",
+		"sources": "https://github.com/MattIsNotDev/ThatIsPristine"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/thatispristine/icon.png",
@@ -20,6 +20,9 @@
 		],
 		"client": [
 			"io.github.mattisnotdev.thatispristine.ThatIsPristineClient"
+		],
+		"modmenu": [
+			"io.github.mattisnotdev.thatispristine.ModMenuIntegration"
 		]
 	},
 	"mixins": [
@@ -33,9 +36,10 @@
 		"fabricloader": ">=0.16.14",
 		"minecraft": "~1.21.5",
 		"java": ">=21",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"cloth-config": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"mod-menu": "*"
 	}
 }
