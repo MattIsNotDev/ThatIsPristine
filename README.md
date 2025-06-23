@@ -1,4 +1,4 @@
-### **That Is Pristine!**
+### **ThatIsPristine**
 
 Fabric mod for Hypixel Skyblock that plays a funny sound when you get a pristine proc.
 

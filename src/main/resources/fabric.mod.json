@@ -3,13 +3,13 @@
 	"id": "thatispristine",
 	"version": "${version}",
 	"name": "ThatIsPristine",
-	"description": "Pristine Notification Mod for Hypixel Skyblock",
+	"description": "A little pristine notification mod for Hypixel Skyblock",
 	"authors": [
-		"MattIsNotDev"
+		"MattIsNotDead / MattIsNotDev"
 	],
 	"contact": {
-		"homepage": "https://github.com/MattIsNotDev/ThatIsPristine",
-		"sources": ""
+		"homepage": "",
+		"sources": "https://github.com/MattIsNotDev/ThatIsPristine"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/thatispristine/icon.png",
